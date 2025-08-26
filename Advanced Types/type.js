@@ -1,0 +1,10 @@
+var add = function (x, y) { return x + y; };
+var sub = function (x, y) { return x - y; };
+var div = function (x, y) { return x / y; };
+var mul = function (x, y) { return x * y; };
+var mod = function (x, y) { return x % y; };
+console.log(add(12, 13));
+console.log(sub(199, 188));
+console.log(div(192, 32));
+console.log(mul(177, 188));
+console.log(mod(99, 3));
