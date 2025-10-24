@@ -1,1 +1,17 @@
 
+import React from 'react';
+
+interface GreetingPops{
+    name:string;
+    age:number;
+}
+
+const Greeting:React.FC<GreetingPops> = ({name,age}) =>{
+    return(
+        <h2>
+            Hello , My name is{name}! and I am {age} years old
+        </h2>
+    );
+}
+
+export default Greeting;
