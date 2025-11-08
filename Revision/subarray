@@ -1,0 +1,63 @@
+let arr = [1, 2, 3];
+let subarrays: number[][] = [];
+
+for (let i = 0; i < arr.length; i++) {
+  for (let j = i; j < arr.length; j++) {
+    subarrays.push(arr.slice(i, j + 1));
+  }
+}
+
+console.log(subarrays);
+
+function containsSubarray(arr: number[], sub: number[]): boolean {
+  for (let i = 0; i <= arr.length - sub.length; i++) {
+    let match = true;
+    for (let j = 0; j < sub.length; j++) {
+      if (arr[i + j] !== sub[j]) {
+        match = false;
+        break;
+      }
+    }
+    if (match) return true;
+  }
+  return false;
+}
+
+let arr = [10, 20, 30, 40, 50];
+
+// Get subarray from index 1 to 3 (excluding index 3)
+let sub = arr.slice(1, 3);
+
+console.log(sub); // [20, 30]
+
+function longestValidSubstring(word: string, forbidden: string[]): number {
+    let n = forbidden.length
+    let maxlength = 0
+
+    for(let i=0;i<n;i++){
+        for(let j=0;j<n;j++){
+            if(isUnique(word,i,j)){
+                maxlength = Math.max(maxlength , j-i+1)
+            }
+        }
+    }
+
+    return maxlength
+};
+
+
+function isUnique(s:string,start:number,end:number):boolean{
+
+    let chars = new Set()
+
+    for(let k = start;k<=end;k++){
+        if(chars.has(s.charAt(k))){
+            return false
+        }
+        chars.add(s.charAt(k))
+    }
+
+    return true
+}
+
+
