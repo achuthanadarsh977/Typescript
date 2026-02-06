@@ -1,0 +1,101 @@
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,description
+s10000,Movie,Netflix Original 0,Christopher Nolan,"Leonardo DiCaprio, Kate Winslet",South Korea,"January 01, 2015",2001,R,87 min,Children & Family Movies,A suspenseful mystery that keeps you guessing.
+s10001,TV Show,Netflix Original 1,Ava DuVernay,,United Kingdom,"January 06, 2015",1999,,129 min,Documentaries,A fast-paced action adventure full of twists.
+s10002,Movie,Netflix Original 2,Greta Gerwig,"Emma Stone, Ryan Gosling",United States,"January 11, 2015",1995,PG-13,100 min,"Dramas, International Movies",A chilling horror story that will haunt your dreams.
+s10003,Movie,Netflix Original 3,Ava DuVernay,"Chris Evans, Scarlett Johansson",United States,"January 16, 2015",2007,PG-13,75 min,"Dramas, International Movies",A romantic tale that spans across decades.
+s10004,Movie,Netflix Original 4,Christopher Nolan,"Leonardo DiCaprio, Kate Winslet",,"January 21, 2015",2015,,,Children & Family Movies,A fast-paced action adventure full of twists.
+s10005,TV Show,Netflix Original 5,Zoya Akhtar,"Tom Hanks, Robin Wright",Canada,"January 26, 2015",2020,,107 min,Documentaries,A heartwarming tale of friendship and resilience.
+s10006,Movie,Netflix Original 6,,"Emma Stone, Ryan Gosling",India,"January 31, 2015",2012,PG,4 Seasons,Romantic Movies,A suspenseful mystery that keeps you guessing.
+s10007,Movie,Netflix Original 7,Bong Joon-ho,"Aamir Khan, Kareena Kapoor",United Kingdom,"February 05, 2015",2007,TV-14,4 Seasons,"Dramas, International Movies",A fast-paced action adventure full of twists.
+s10008,Movie,Netflix Original 8,Zoya Akhtar,,United States,"February 10, 2015",2015,TV-MA,118 min,"Dramas, International Movies",A fast-paced action adventure full of twists.
+s10009,TV Show,Netflix Original 9,Steven Spielberg,"Tom Hanks, Robin Wright",United Kingdom,"February 15, 2015",2015,,2 Seasons,Documentaries,A chilling horror story that will haunt your dreams.
+s10010,Movie,Netflix Original 10,Bong Joon-ho,"Shah Rukh Khan, Kajol",India,"February 20, 2015",2012,,2 Seasons,Action & Adventure,An emotional journey through life's biggest challenges.
+s10011,Movie,Netflix Original 11,,"Chris Evans, Scarlett Johansson",South Korea,"February 25, 2015",1999,TV-MA,135 min,"Dramas, International Movies",A suspenseful mystery that keeps you guessing.
+s10012,Movie,Netflix Original 12,Steven Spielberg,"Shah Rukh Khan, Kajol",Canada,"March 02, 2015",2007,TV-PG,70 min,"Comedies, Dramas",A romantic tale that spans across decades.
+s10013,Movie,Netflix Original 13,Zoya Akhtar,"Tom Hanks, Robin Wright",United Kingdom,"March 07, 2015",1998,TV-14,148 min,Documentaries,A heartwarming tale of friendship and resilience.
+s10014,,Netflix Original 14,Greta Gerwig,"Leonardo DiCaprio, Kate Winslet",United States,"March 12, 2015",2011,TV-MA,2 Seasons,"Dramas, International Movies",A suspenseful mystery that keeps you guessing.
+s10015,Movie,Netflix Original 15,Bong Joon-ho,"Emma Stone, Ryan Gosling",United States,"March 17, 2015",1997,TV-14,78 min,Children & Family Movies,A gripping drama about love and sacrifice.
+s10016,TV Show,Netflix Original 16,Bong Joon-ho,"Tom Hanks, Robin Wright",Canada,"March 22, 2015",2011,TV-14,3 Seasons,Horror Movies,An emotional journey through life's biggest challenges.
+s10017,TV Show,Netflix Original 17,Bong Joon-ho,,United Kingdom,"March 27, 2015",2022,PG-13,114 min,"Comedies, Dramas",A gripping drama about love and sacrifice.
+s10018,TV Show,Netflix Original 18,Ava DuVernay,"Chris Evans, Scarlett Johansson",Japan,"April 01, 2015",2005,,2 Seasons,Horror Movies,A heartwarming tale of friendship and resilience.
+s10019,Movie,Netflix Original 19,Christopher Nolan,"Tom Hanks, Robin Wright",India,"April 06, 2015",2015,,141 min,Horror Movies,A chilling horror story that will haunt your dreams.
+s10020,TV Show,Netflix Original 20,Greta Gerwig,"Leonardo DiCaprio, Kate Winslet",,"April 11, 2015",2014,PG,85 min,"Dramas, International Movies",A chilling horror story that will haunt your dreams.
+s10021,Movie,Netflix Original 21,Greta Gerwig,,South Korea,"April 16, 2015",2017,TV-14,2 Seasons,"Comedies, Dramas",A heartwarming tale of friendship and resilience.
+s10022,,Netflix Original 22,Greta Gerwig,"Leonardo DiCaprio, Kate Winslet",South Korea,"April 21, 2015",2015,R,4 Seasons,"Comedies, Dramas",A hilarious comedy exploring modern relationships.
+s10023,TV Show,Netflix Original 23,,"Chris Evans, Scarlett Johansson",United States,"April 26, 2015",2020,PG,4 Seasons,Action & Adventure,A heartwarming tale of friendship and resilience.
+s10024,TV Show,Netflix Original 24,Zoya Akhtar,"Tom Hanks, Robin Wright",United Kingdom,"May 01, 2015",1998,TV-14,3 Seasons,Horror Movies,An emotional journey through life's biggest challenges.
+s10025,TV Show,Netflix Original 25,Zoya Akhtar,"Shah Rukh Khan, Kajol",United States,"May 06, 2015",1996,TV-MA,1 Seasons,"Comedies, Dramas",An inspiring story of personal growth and discovery.
+s10026,TV Show,Netflix Original 26,Greta Gerwig,"Shah Rukh Khan, Kajol",India,"May 11, 2015",2014,TV-14,3 Seasons,Action & Adventure,A chilling horror story that will haunt your dreams.
+s10027,TV Show,Netflix Original 27,Bong Joon-ho,"Tom Hanks, Robin Wright",,"May 16, 2015",2010,TV-PG,,Documentaries,An award-winning documentary that opens minds.
+s10028,TV Show,Netflix Original 28,Bong Joon-ho,"Tom Hanks, Robin Wright",United States,"May 21, 2015",2022,TV-14,3 Seasons,Action & Adventure,An emotional journey through life's biggest challenges.
+s10029,TV Show,Netflix Original 29,Greta Gerwig,"Emma Stone, Ryan Gosling",United Kingdom,"May 26, 2015",2012,TV-MA,,Children & Family Movies,An emotional journey through life's biggest challenges.
+s10030,Movie,Netflix Original 30,Greta Gerwig,"Emma Stone, Ryan Gosling",Japan,"May 31, 2015",2002,,139 min,Romantic Movies,An emotional journey through life's biggest challenges.
+s10031,Movie,Netflix Original 31,Ava DuVernay,"Aamir Khan, Kareena Kapoor",Japan,"June 05, 2015",1997,PG-13,2 Seasons,"Dramas, International Movies",A fast-paced action adventure full of twists.
+s10032,TV Show,Netflix Original 32,Ava DuVernay,"Shah Rukh Khan, Kajol",United Kingdom,"June 10, 2015",2003,PG-13,93 min,Documentaries,An emotional journey through life's biggest challenges.
+s10033,TV Show,Netflix Original 33,Steven Spielberg,"Chris Evans, Scarlett Johansson",,"June 15, 2015",2014,PG-13,3 Seasons,Romantic Movies,A chilling horror story that will haunt your dreams.
+s10034,,Netflix Original 34,Zoya Akhtar,"Shah Rukh Khan, Kajol",Canada,"June 20, 2015",2000,R,4 Seasons,Romantic Movies,An inspiring story of personal growth and discovery.
+s10035,Movie,Netflix Original 35,Steven Spielberg,,United Kingdom,"June 25, 2015",2004,TV-PG,72 min,Documentaries,An inspiring story of personal growth and discovery.
+s10036,TV Show,Netflix Original 36,Zoya Akhtar,"Emma Stone, Ryan Gosling",,"June 30, 2015",2015,TV-14,67 min,Children & Family Movies,An emotional journey through life's biggest challenges.
+s10037,Movie,Netflix Original 37,Zoya Akhtar,"Chris Evans, Scarlett Johansson",Canada,"July 05, 2015",2004,PG-13,2 Seasons,Action & Adventure,A gripping drama about love and sacrifice.
+s10038,Movie,Netflix Original 38,Christopher Nolan,"Aamir Khan, Kareena Kapoor",United States,"July 10, 2015",2007,,4 Seasons,"Dramas, International Movies",A chilling horror story that will haunt your dreams.
+s10039,Movie,Netflix Original 39,Zoya Akhtar,,,"July 15, 2015",2011,,124 min,Action & Adventure,A chilling horror story that will haunt your dreams.
+s10040,Movie,Netflix Original 40,Steven Spielberg,"Shah Rukh Khan, Kajol",Canada,"July 20, 2015",2003,,102 min,"Comedies, Dramas",A suspenseful mystery that keeps you guessing.
+s10041,Movie,Netflix Original 41,Steven Spielberg,"Emma Stone, Ryan Gosling",United States,"July 25, 2015",2011,PG-13,98 min,Action & Adventure,A romantic tale that spans across decades.
+s10042,TV Show,Netflix Original 42,Greta Gerwig,"Aamir Khan, Kareena Kapoor",United Kingdom,"July 30, 2015",2018,TV-14,140 min,Documentaries,A hilarious comedy exploring modern relationships.
+s10043,TV Show,Netflix Original 43,Ava DuVernay,"Emma Stone, Ryan Gosling",Japan,"August 04, 2015",2003,,3 Seasons,"Dramas, International Movies",A hilarious comedy exploring modern relationships.
+s10044,TV Show,Netflix Original 44,Steven Spielberg,"Leonardo DiCaprio, Kate Winslet",South Korea,"August 09, 2015",2003,TV-PG,4 Seasons,Action & Adventure,A gripping drama about love and sacrifice.
+s10045,TV Show,Netflix Original 45,Zoya Akhtar,,India,"August 14, 2015",1995,,4 Seasons,"Dramas, International Movies",A hilarious comedy exploring modern relationships.
+s10046,TV Show,Netflix Original 46,Greta Gerwig,,India,"August 19, 2015",1996,TV-MA,2 Seasons,"Dramas, International Movies",A suspenseful mystery that keeps you guessing.
+s10047,Movie,Netflix Original 47,Christopher Nolan,"Emma Stone, Ryan Gosling",United States,"August 24, 2015",2022,TV-14,145 min,"Comedies, Dramas",A heartwarming tale of friendship and resilience.
+s10048,TV Show,Netflix Original 48,Bong Joon-ho,"Emma Stone, Ryan Gosling",,"August 29, 2015",2010,,145 min,"Comedies, Dramas",A hilarious comedy exploring modern relationships.
+s10049,TV Show,Netflix Original 49,Steven Spielberg,,Japan,"September 03, 2015",1995,TV-14,4 Seasons,Documentaries,A chilling horror story that will haunt your dreams.
+s10050,,Netflix Original 50,Steven Spielberg,"Tom Hanks, Robin Wright",United States,"September 08, 2015",2004,TV-14,1 Seasons,Children & Family Movies,A heartwarming tale of friendship and resilience.
+s10051,TV Show,Netflix Original 51,Zoya Akhtar,"Shah Rukh Khan, Kajol",,"September 13, 2015",2012,TV-MA,1 Seasons,Romantic Movies,A hilarious comedy exploring modern relationships.
+s10052,Movie,Netflix Original 52,Zoya Akhtar,"Emma Stone, Ryan Gosling",United States,"September 18, 2015",2020,PG,2 Seasons,"Dramas, International Movies",A chilling horror story that will haunt your dreams.
+s10053,TV Show,Netflix Original 53,Bong Joon-ho,"Emma Stone, Ryan Gosling",United Kingdom,"September 23, 2015",2022,TV-PG,4 Seasons,Children & Family Movies,A chilling horror story that will haunt your dreams.
+s10054,Movie,Netflix Original 54,Bong Joon-ho,"Aamir Khan, Kareena Kapoor",Japan,"September 28, 2015",2002,R,1 Seasons,Romantic Movies,An emotional journey through life's biggest challenges.
+s10055,TV Show,Netflix Original 55,,"Tom Hanks, Robin Wright",South Korea,"October 03, 2015",2015,TV-PG,4 Seasons,Romantic Movies,An inspiring story of personal growth and discovery.
+s10056,,Netflix Original 56,Zoya Akhtar,,Japan,"October 08, 2015",2022,,4 Seasons,Documentaries,A gripping drama about love and sacrifice.
+s10057,Movie,Netflix Original 57,Ava DuVernay,,South Korea,"October 13, 2015",2005,PG-13,4 Seasons,Romantic Movies,A suspenseful mystery that keeps you guessing.
+s10058,Movie,Netflix Original 58,Greta Gerwig,"Aamir Khan, Kareena Kapoor",Canada,"October 18, 2015",2017,TV-14,101 min,Romantic Movies,A fast-paced action adventure full of twists.
+s10059,Movie,Netflix Original 59,Christopher Nolan,"Leonardo DiCaprio, Kate Winslet",South Korea,"October 23, 2015",1996,R,,"Dramas, International Movies",A romantic tale that spans across decades.
+s10060,Movie,Netflix Original 60,Ava DuVernay,,United States,"October 28, 2015",2002,TV-PG,102 min,"Dramas, International Movies",A hilarious comedy exploring modern relationships.
+s10061,Movie,Netflix Original 61,Steven Spielberg,"Tom Hanks, Robin Wright",South Korea,"November 02, 2015",2021,PG,144 min,Horror Movies,A hilarious comedy exploring modern relationships.
+s10062,Movie,Netflix Original 62,Steven Spielberg,"Leonardo DiCaprio, Kate Winslet",United Kingdom,"November 07, 2015",2016,PG,4 Seasons,Children & Family Movies,A heartwarming tale of friendship and resilience.
+s10063,Movie,Netflix Original 63,,,South Korea,"November 12, 2015",2002,TV-PG,,Action & Adventure,A heartwarming tale of friendship and resilience.
+s10064,Movie,Netflix Original 64,Greta Gerwig,,United Kingdom,"November 17, 2015",2011,R,125 min,"Comedies, Dramas",A romantic tale that spans across decades.
+s10065,TV Show,Netflix Original 65,Bong Joon-ho,"Aamir Khan, Kareena Kapoor",Japan,"November 22, 2015",2009,,114 min,Action & Adventure,A hilarious comedy exploring modern relationships.
+s10066,TV Show,Netflix Original 66,Ava DuVernay,"Emma Stone, Ryan Gosling",United Kingdom,"November 27, 2015",2011,TV-14,4 Seasons,Children & Family Movies,An award-winning documentary that opens minds.
+s10067,Movie,Netflix Original 67,Christopher Nolan,"Chris Evans, Scarlett Johansson",Japan,"December 02, 2015",2022,PG-13,107 min,"Comedies, Dramas",A suspenseful mystery that keeps you guessing.
+s10068,TV Show,Netflix Original 68,Christopher Nolan,"Leonardo DiCaprio, Kate Winslet",United States,"December 07, 2015",2017,PG,3 Seasons,Action & Adventure,A hilarious comedy exploring modern relationships.
+s10069,TV Show,Netflix Original 69,Christopher Nolan,"Chris Evans, Scarlett Johansson",United States,"December 12, 2015",2018,TV-PG,2 Seasons,Horror Movies,An inspiring story of personal growth and discovery.
+s10070,TV Show,Netflix Original 70,Zoya Akhtar,"Tom Hanks, Robin Wright",India,"December 17, 2015",2007,R,1 Seasons,"Comedies, Dramas",A romantic tale that spans across decades.
+s10071,TV Show,Netflix Original 71,Bong Joon-ho,"Leonardo DiCaprio, Kate Winslet",India,"December 22, 2015",2013,,86 min,"Dramas, International Movies",An award-winning documentary that opens minds.
+s10072,Movie,Netflix Original 72,Bong Joon-ho,"Chris Evans, Scarlett Johansson",South Korea,"December 27, 2015",1999,,126 min,Action & Adventure,A suspenseful mystery that keeps you guessing.
+s10073,TV Show,Netflix Original 73,Christopher Nolan,"Chris Evans, Scarlett Johansson",India,"January 01, 2016",2006,PG-13,4 Seasons,"Comedies, Dramas",A hilarious comedy exploring modern relationships.
+s10074,Movie,Netflix Original 74,,"Aamir Khan, Kareena Kapoor",,"January 06, 2016",1995,,72 min,Horror Movies,A fast-paced action adventure full of twists.
+s10075,TV Show,Netflix Original 75,Bong Joon-ho,,Canada,"January 11, 2016",2017,PG-13,104 min,Romantic Movies,An emotional journey through life's biggest challenges.
+s10076,TV Show,Netflix Original 76,Zoya Akhtar,"Chris Evans, Scarlett Johansson",India,"January 16, 2016",1999,PG-13,69 min,"Comedies, Dramas",An inspiring story of personal growth and discovery.
+s10077,TV Show,Netflix Original 77,Bong Joon-ho,"Chris Evans, Scarlett Johansson",South Korea,"January 21, 2016",2002,PG-13,68 min,"Comedies, Dramas",A fast-paced action adventure full of twists.
+s10078,Movie,Netflix Original 78,Ava DuVernay,"Tom Hanks, Robin Wright",Japan,"January 26, 2016",2007,,113 min,Horror Movies,A heartwarming tale of friendship and resilience.
+s10079,TV Show,Netflix Original 79,Christopher Nolan,"Aamir Khan, Kareena Kapoor",United Kingdom,"January 31, 2016",2002,PG,,Romantic Movies,A heartwarming tale of friendship and resilience.
+s10080,Movie,Netflix Original 80,Ava DuVernay,"Shah Rukh Khan, Kajol",United Kingdom,"February 05, 2016",2019,PG-13,93 min,Action & Adventure,A hilarious comedy exploring modern relationships.
+s10081,TV Show,Netflix Original 81,Greta Gerwig,"Aamir Khan, Kareena Kapoor",Japan,"February 10, 2016",2017,TV-14,3 Seasons,Documentaries,A heartwarming tale of friendship and resilience.
+s10082,Movie,Netflix Original 82,Steven Spielberg,"Shah Rukh Khan, Kajol",India,"February 15, 2016",2005,PG,60 min,Action & Adventure,An inspiring story of personal growth and discovery.
+s10083,TV Show,Netflix Original 83,Steven Spielberg,"Shah Rukh Khan, Kajol",,"February 20, 2016",1995,TV-MA,91 min,Romantic Movies,A suspenseful mystery that keeps you guessing.
+s10084,Movie,Netflix Original 84,Steven Spielberg,"Aamir Khan, Kareena Kapoor",,"February 25, 2016",2007,,148 min,Children & Family Movies,A chilling horror story that will haunt your dreams.
+s10085,Movie,Netflix Original 85,Steven Spielberg,"Chris Evans, Scarlett Johansson",Japan,"March 01, 2016",2013,TV-PG,130 min,Horror Movies,A gripping drama about love and sacrifice.
+s10086,TV Show,Netflix Original 86,Greta Gerwig,,India,"March 06, 2016",2018,TV-14,126 min,Action & Adventure,A romantic tale that spans across decades.
+s10087,Movie,Netflix Original 87,Bong Joon-ho,"Chris Evans, Scarlett Johansson",Japan,"March 11, 2016",1997,,143 min,"Comedies, Dramas",A suspenseful mystery that keeps you guessing.
+s10088,,Netflix Original 88,Zoya Akhtar,"Emma Stone, Ryan Gosling",United States,"March 16, 2016",2018,R,79 min,Horror Movies,A chilling horror story that will haunt your dreams.
+s10089,TV Show,Netflix Original 89,Steven Spielberg,"Emma Stone, Ryan Gosling",United States,"March 21, 2016",2011,,94 min,"Dramas, International Movies",An award-winning documentary that opens minds.
+s10090,TV Show,Netflix Original 90,Zoya Akhtar,"Leonardo DiCaprio, Kate Winslet",India,"March 26, 2016",1999,PG,,Romantic Movies,An inspiring story of personal growth and discovery.
+s10091,TV Show,Netflix Original 91,Zoya Akhtar,"Emma Stone, Ryan Gosling",United Kingdom,"March 31, 2016",2014,PG,149 min,Action & Adventure,A fast-paced action adventure full of twists.
+s10092,TV Show,Netflix Original 92,Christopher Nolan,"Shah Rukh Khan, Kajol",South Korea,"April 05, 2016",2015,PG-13,137 min,Horror Movies,A chilling horror story that will haunt your dreams.
+s10093,TV Show,Netflix Original 93,Ava DuVernay,,Japan,"April 10, 2016",2002,,76 min,Action & Adventure,An inspiring story of personal growth and discovery.
+s10094,TV Show,Netflix Original 94,Ava DuVernay,"Shah Rukh Khan, Kajol",Japan,"April 15, 2016",2020,TV-14,,Horror Movies,An emotional journey through life's biggest challenges.
+s10095,TV Show,Netflix Original 95,Bong Joon-ho,"Chris Evans, Scarlett Johansson",Canada,"April 20, 2016",2008,PG-13,1 Seasons,"Comedies, Dramas",A fast-paced action adventure full of twists.
+s10096,TV Show,Netflix Original 96,Bong Joon-ho,"Leonardo DiCaprio, Kate Winslet",,"April 25, 2016",1998,TV-MA,4 Seasons,"Dramas, International Movies",A heartwarming tale of friendship and resilience.
+s10097,TV Show,Netflix Original 97,Steven Spielberg,,Canada,"April 30, 2016",2005,TV-14,1 Seasons,"Dramas, International Movies",A heartwarming tale of friendship and resilience.
+s10098,TV Show,Netflix Original 98,Ava DuVernay,"Aamir Khan, Kareena Kapoor",,"May 05, 2016",2014,TV-14,,Children & Family Movies,A fast-paced action adventure full of twists.
+s10099,Movie,Netflix Original 99,Bong Joon-ho,"Emma Stone, Ryan Gosling",United States,"May 10, 2016",2009,TV-PG,1 Seasons,Horror Movies,An award-winning documentary that opens minds.
