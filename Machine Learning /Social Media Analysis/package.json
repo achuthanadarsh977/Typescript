@@ -1,0 +1,27 @@
+{
+  "name": "social-media-analysis",
+  "version": "1.0.0",
+  "description": "Social Media Usage Analysis - TypeScript implementation",
+  "main": "dist/socialMediaAnalysis.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/socialMediaAnalysis.js",
+    "dev": "ts-node socialMediaAnalysis.ts"
+  },
+  "keywords": [
+    "data-analysis",
+    "social-media",
+    "typescript",
+    "machine-learning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
