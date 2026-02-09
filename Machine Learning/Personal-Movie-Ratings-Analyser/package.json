@@ -1,0 +1,19 @@
+{
+  "name": "personal-movie-ratings-analyser",
+  "version": "1.0.0",
+  "description": "EDA and visualization of personal movie ratings dataset using TypeScript and Chart.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.90",
+    "chart.js": "^4.4.0",
+    "csv-parse": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}

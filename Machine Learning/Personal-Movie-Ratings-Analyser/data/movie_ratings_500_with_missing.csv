@@ -1,0 +1,501 @@
+Movie,Genre,Year,Rating,Watched_On,Duration,Director,Lead_Actor,Language,Rewatch
+Movie 1,Romance,2002.0,9.5,Netflix,180.0,Director 85,Actor 25,Korean,Yes
+Movie 2,Documentary,2015.0,4.0,YouTube,164.0,Director 18,Actor 101,French,Yes
+Movie 3,Documentary,1987.0,5.0,Amazon Prime,95.0,Director 192,Actor 113,Korean,No
+Movie 4,Documentary,2018.0,6.4,TV,111.0,Director 42,Actor 160,,No
+Movie 5,Romance,2024.0,3.9,Netflix,172.0,Director 62,Actor 40,Korean,No
+Movie 6,Horror,1987.0,4.8,Hulu,104.0,Director 178,Actor 93,Korean,Yes
+Movie 7,Drama,1992.0,,Disney+,90.0,Director 152,Actor 75,,No
+Movie 8,Action,1988.0,9.4,Amazon Prime,,Director 103,Actor 81,French,Yes
+Movie 9,,2004.0,7.8,Disney+,87.0,Director 125,Actor 299,Korean,No
+Movie 10,Horror,2008.0,1.8,Blu-ray,84.0,Director 150,Actor 176,English,No
+Movie 11,Comedy,,8.5,,,Director 170,Actor 195,Korean,No
+Movie 12,Thriller,2017.0,8.7,Disney+,156.0,Director 45,Actor 98,English,Yes
+Movie 13,Romance,1981.0,9.1,Hulu,128.0,Director 123,Actor 191,Hindi,Yes
+Movie 14,,1992.0,,Hulu,114.0,,Actor 261,Spanish,No
+,Thriller,2023.0,4.6,YouTube,,Director 138,,French,Yes
+Movie 16,Drama,1980.0,6.1,Blu-ray,177.0,Director 95,Actor 139,English,No
+Movie 17,Sci-Fi,2005.0,5.8,Amazon Prime,118.0,Director 99,Actor 137,English,Yes
+Movie 18,Comedy,,8.3,Netflix,171.0,Director 36,Actor 152,Hindi,No
+Movie 19,Comedy,1989.0,3.2,TV,142.0,Director 192,Actor 186,Korean,
+,Action,,6.6,Blu-ray,159.0,Director 170,Actor 149,English,Yes
+Movie 21,Sci-Fi,1998.0,9.2,TV,,,Actor 226,Spanish,
+Movie 22,Comedy,2020.0,1.8,Blu-ray,115.0,Director 111,Actor 211,English,
+Movie 23,Documentary,2004.0,9.7,Disney+,95.0,Director 64,Actor 129,French,No
+Movie 24,Drama,1987.0,9.9,Amazon Prime,115.0,Director 9,Actor 275,Spanish,Yes
+Movie 25,Drama,1981.0,,Netflix,,Director 9,Actor 295,Hindi,
+Movie 26,Horror,1996.0,1.2,YouTube,118.0,Director 44,Actor 198,French,No
+Movie 27,Action,1994.0,4.4,Disney+,137.0,Director 9,Actor 243,,No
+Movie 28,Documentary,1998.0,1.4,TV,154.0,Director 23,Actor 82,Spanish,
+Movie 29,Romance,,2.2,,117.0,Director 114,Actor 29,,No
+Movie 30,Romance,1996.0,6.8,,91.0,Director 189,,Hindi,No
+Movie 31,Action,2020.0,4.3,YouTube,171.0,Director 75,,English,Yes
+Movie 32,Action,,6.7,Blu-ray,138.0,Director 66,Actor 217,Korean,Yes
+Movie 33,Thriller,2020.0,4.4,,131.0,Director 113,,Korean,No
+Movie 34,Comedy,2000.0,4.4,Amazon Prime,,Director 92,Actor 91,French,Yes
+Movie 35,Documentary,2011.0,7.1,Blu-ray,142.0,Director 14,Actor 167,French,
+Movie 36,Documentary,1980.0,8.3,Netflix,174.0,Director 83,,Korean,
+Movie 37,Drama,2016.0,1.2,Amazon Prime,123.0,Director 42,Actor 235,Korean,No
+Movie 38,Action,1985.0,9.1,Hulu,171.0,,Actor 245,Hindi,No
+,Comedy,2020.0,9.0,Hulu,138.0,Director 76,Actor 39,English,No
+Movie 40,Thriller,1993.0,2.6,Hulu,179.0,Director 3,Actor 143,Korean,
+Movie 41,Thriller,1981.0,6.2,Netflix,148.0,,Actor 147,Korean,Yes
+Movie 42,Horror,2001.0,4.0,Blu-ray,107.0,Director 159,Actor 127,French,Yes
+Movie 43,,2005.0,9.3,TV,,Director 13,Actor 271,,Yes
+Movie 44,Sci-Fi,1996.0,4.6,Blu-ray,98.0,Director 120,Actor 274,French,No
+,Horror,1980.0,3.4,Blu-ray,143.0,,,Spanish,Yes
+Movie 46,,2012.0,4.8,Hulu,169.0,Director 178,Actor 49,English,No
+Movie 47,Drama,2006.0,3.0,YouTube,165.0,Director 169,Actor 161,Korean,No
+Movie 48,Documentary,1998.0,9.2,Disney+,170.0,Director 73,Actor 152,Hindi,No
+Movie 49,Drama,2015.0,8.1,Disney+,87.0,Director 193,Actor 118,English,Yes
+,Comedy,2015.0,1.7,Disney+,117.0,Director 28,Actor 289,Spanish,No
+Movie 51,Comedy,1984.0,7.6,TV,154.0,Director 92,Actor 182,Spanish,No
+Movie 52,,1985.0,4.4,TV,149.0,Director 90,Actor 58,Spanish,
+Movie 53,Comedy,2000.0,7.7,,132.0,Director 122,Actor 105,English,No
+Movie 54,Drama,1986.0,7.5,Blu-ray,96.0,Director 189,Actor 73,English,No
+Movie 55,Sci-Fi,1996.0,9.0,Blu-ray,120.0,Director 199,Actor 217,Korean,No
+Movie 56,Drama,2023.0,2.1,TV,147.0,,Actor 158,English,Yes
+Movie 57,Romance,,4.3,Disney+,136.0,Director 173,Actor 213,Korean,No
+Movie 58,Documentary,2013.0,3.3,Hulu,139.0,Director 72,Actor 176,Spanish,No
+Movie 59,,1985.0,2.8,Netflix,100.0,Director 153,Actor 68,Korean,Yes
+Movie 60,Documentary,1990.0,4.8,Amazon Prime,108.0,Director 32,Actor 242,Hindi,
+,Drama,,9.2,,112.0,Director 19,Actor 93,French,Yes
+Movie 62,Action,2015.0,9.6,Amazon Prime,169.0,,Actor 173,Korean,Yes
+Movie 63,,2003.0,5.7,YouTube,119.0,Director 42,Actor 20,Korean,Yes
+Movie 64,Thriller,2017.0,7.2,Hulu,106.0,Director 168,Actor 160,English,Yes
+Movie 65,Thriller,1985.0,7.9,YouTube,117.0,Director 152,,Korean,
+,Documentary,1981.0,5.6,Netflix,139.0,Director 13,,Hindi,No
+,Romance,1986.0,2.1,Blu-ray,86.0,Director 51,Actor 53,Korean,No
+Movie 68,Comedy,1994.0,4.3,Disney+,157.0,Director 191,Actor 53,Korean,No
+Movie 69,Drama,,2.3,Hulu,137.0,Director 131,Actor 227,,Yes
+Movie 70,Documentary,2017.0,3.4,Amazon Prime,133.0,Director 193,Actor 58,,No
+Movie 71,Sci-Fi,2004.0,8.4,YouTube,158.0,Director 28,Actor 196,English,No
+Movie 72,Documentary,2014.0,8.6,Hulu,115.0,Director 104,Actor 62,French,Yes
+Movie 73,Romance,2014.0,6.1,TV,126.0,Director 102,Actor 215,Korean,Yes
+,Thriller,2002.0,7.9,Blu-ray,122.0,Director 111,Actor 48,Korean,Yes
+Movie 75,Drama,1991.0,3.0,YouTube,153.0,Director 7,Actor 125,Hindi,No
+Movie 76,Thriller,2020.0,3.5,YouTube,178.0,Director 47,Actor 52,French,No
+Movie 77,Horror,1997.0,8.8,Netflix,,Director 116,Actor 234,Spanish,Yes
+Movie 78,Thriller,1989.0,3.0,Netflix,143.0,Director 144,Actor 258,Spanish,No
+Movie 79,,1986.0,8.0,Hulu,176.0,Director 139,,Korean,No
+,Action,2016.0,3.5,,111.0,Director 66,,Spanish,No
+Movie 81,Romance,1997.0,3.0,TV,117.0,Director 22,Actor 284,Korean,Yes
+Movie 82,Action,1995.0,2.8,YouTube,82.0,,Actor 79,Hindi,Yes
+Movie 83,,1997.0,1.6,Hulu,96.0,Director 153,Actor 34,French,No
+Movie 84,Thriller,2003.0,7.8,Netflix,,Director 187,Actor 13,English,Yes
+Movie 85,Documentary,1980.0,5.6,Amazon Prime,144.0,Director 27,Actor 280,English,
+Movie 86,,2012.0,2.6,YouTube,171.0,Director 70,Actor 155,English,
+,Comedy,1992.0,1.8,Netflix,133.0,Director 125,Actor 159,English,Yes
+Movie 88,Thriller,2019.0,6.3,Hulu,153.0,Director 137,,Korean,Yes
+Movie 89,,2005.0,9.8,Amazon Prime,99.0,Director 30,,Hindi,Yes
+Movie 90,Comedy,1989.0,1.5,Hulu,176.0,Director 62,,French,Yes
+Movie 91,Comedy,2018.0,9.9,,167.0,,Actor 175,,No
+Movie 92,Romance,2017.0,3.6,,179.0,Director 165,Actor 253,French,No
+Movie 93,,2022.0,3.9,Blu-ray,173.0,Director 101,Actor 26,Spanish,No
+,Sci-Fi,1983.0,,Netflix,91.0,Director 184,Actor 48,Spanish,Yes
+Movie 95,Drama,1991.0,8.2,TV,141.0,Director 48,Actor 162,,Yes
+Movie 96,,2009.0,4.2,Netflix,176.0,Director 50,,Korean,Yes
+Movie 97,Documentary,1996.0,8.2,YouTube,111.0,Director 160,Actor 211,Hindi,No
+Movie 98,Drama,2006.0,6.0,Netflix,170.0,Director 119,,Hindi,No
+,Comedy,1984.0,4.7,TV,165.0,Director 150,Actor 223,Hindi,Yes
+,Horror,2016.0,6.5,Hulu,165.0,Director 182,Actor 170,French,No
+Movie 101,Romance,1996.0,5.3,Netflix,164.0,Director 26,Actor 234,Korean,No
+Movie 102,Thriller,,2.3,Disney+,175.0,Director 137,Actor 132,French,No
+Movie 103,,2009.0,5.2,Disney+,172.0,Director 35,Actor 56,Korean,No
+,Action,2011.0,9.3,Hulu,173.0,Director 42,Actor 71,French,No
+Movie 105,Drama,1980.0,2.1,Amazon Prime,117.0,Director 4,Actor 293,English,
+Movie 106,Documentary,1999.0,4.7,Amazon Prime,170.0,Director 15,Actor 283,Spanish,Yes
+Movie 107,Comedy,2011.0,6.1,Amazon Prime,129.0,Director 34,Actor 92,Korean,Yes
+Movie 108,Comedy,2013.0,9.3,TV,145.0,Director 80,Actor 135,Hindi,Yes
+Movie 109,Romance,2019.0,3.6,YouTube,136.0,Director 28,Actor 104,Hindi,Yes
+Movie 110,Romance,2013.0,7.9,Amazon Prime,111.0,Director 167,Actor 143,Korean,No
+Movie 111,Thriller,,6.0,TV,,,,,
+Movie 112,Comedy,2013.0,1.1,Disney+,87.0,Director 157,Actor 59,French,Yes
+Movie 113,Comedy,2024.0,2.8,TV,154.0,Director 45,Actor 2,Korean,Yes
+Movie 114,Horror,1993.0,4.8,Blu-ray,103.0,Director 29,,English,No
+Movie 115,Romance,1993.0,6.7,Netflix,91.0,Director 200,Actor 295,English,Yes
+Movie 116,Horror,,,Amazon Prime,170.0,Director 107,Actor 134,French,Yes
+Movie 117,Action,2019.0,5.8,Hulu,137.0,Director 166,Actor 247,Hindi,No
+Movie 118,Sci-Fi,1995.0,6.1,,157.0,Director 68,Actor 256,French,Yes
+Movie 119,,1996.0,3.4,Blu-ray,157.0,Director 71,Actor 39,Spanish,Yes
+,Horror,1989.0,4.4,Netflix,163.0,Director 141,Actor 227,French,Yes
+Movie 121,Documentary,2006.0,4.6,Amazon Prime,,Director 83,Actor 166,Hindi,Yes
+Movie 122,Thriller,2021.0,9.3,Disney+,105.0,Director 188,Actor 53,Spanish,No
+Movie 123,Comedy,1991.0,9.7,Hulu,146.0,Director 143,Actor 124,French,No
+Movie 124,Thriller,2023.0,1.2,Netflix,152.0,Director 16,,English,No
+Movie 125,Horror,2009.0,,Disney+,82.0,Director 73,Actor 61,Hindi,Yes
+Movie 126,Romance,2022.0,7.0,,177.0,Director 181,Actor 190,Hindi,
+Movie 127,Comedy,,5.2,Hulu,,Director 106,Actor 96,Hindi,Yes
+Movie 128,Drama,1984.0,8.4,Hulu,109.0,Director 6,Actor 287,Spanish,Yes
+Movie 129,Romance,1991.0,,,120.0,Director 19,Actor 213,Korean,Yes
+Movie 130,Documentary,1995.0,1.8,Hulu,164.0,Director 30,Actor 82,Spanish,Yes
+Movie 131,Comedy,2011.0,6.9,Amazon Prime,105.0,Director 57,Actor 108,Hindi,No
+Movie 132,Drama,2009.0,2.2,TV,165.0,Director 142,Actor 205,Spanish,No
+Movie 133,Thriller,1988.0,,,161.0,Director 104,Actor 284,Korean,Yes
+Movie 134,Sci-Fi,2013.0,5.6,Disney+,158.0,Director 61,Actor 199,Spanish,No
+Movie 135,,2023.0,6.5,TV,100.0,Director 98,Actor 140,French,No
+Movie 136,Romance,2024.0,1.0,YouTube,169.0,Director 100,Actor 203,French,Yes
+Movie 137,Romance,2002.0,3.4,Hulu,173.0,,Actor 228,,No
+Movie 138,Documentary,1998.0,3.9,Blu-ray,161.0,,Actor 11,Spanish,Yes
+Movie 139,Action,2023.0,7.7,,,Director 134,Actor 264,Spanish,Yes
+Movie 140,Comedy,1999.0,1.5,Amazon Prime,102.0,Director 4,Actor 147,,Yes
+Movie 141,Action,1987.0,,Blu-ray,151.0,Director 49,Actor 147,Korean,Yes
+Movie 142,Comedy,2013.0,5.5,YouTube,108.0,Director 13,Actor 117,,Yes
+Movie 143,Comedy,2013.0,7.9,YouTube,,Director 197,Actor 283,Korean,Yes
+Movie 144,Action,1992.0,,YouTube,166.0,Director 191,Actor 3,Korean,No
+Movie 145,Sci-Fi,1986.0,5.6,Disney+,144.0,,Actor 77,French,Yes
+Movie 146,Sci-Fi,2016.0,6.4,Blu-ray,82.0,Director 85,Actor 19,English,Yes
+Movie 147,Comedy,2020.0,3.1,Netflix,121.0,Director 102,Actor 87,French,No
+Movie 148,Comedy,2006.0,8.7,Netflix,,Director 194,Actor 92,English,
+Movie 149,,1989.0,7.5,YouTube,160.0,Director 126,Actor 46,French,Yes
+Movie 150,Horror,2023.0,6.1,Hulu,130.0,Director 146,Actor 244,French,No
+Movie 151,Documentary,1986.0,7.9,Netflix,84.0,Director 196,Actor 209,English,Yes
+,Thriller,2013.0,6.6,Disney+,91.0,Director 132,Actor 254,Spanish,No
+Movie 153,Romance,2008.0,2.3,Amazon Prime,110.0,Director 10,Actor 170,Spanish,Yes
+Movie 154,Horror,2006.0,5.9,Hulu,176.0,Director 121,Actor 231,,Yes
+Movie 155,Comedy,1982.0,4.8,Netflix,,Director 25,Actor 238,Spanish,Yes
+Movie 156,Thriller,1999.0,6.9,TV,177.0,Director 51,Actor 66,Spanish,No
+Movie 157,Thriller,,3.0,TV,154.0,Director 113,Actor 18,French,No
+Movie 158,Sci-Fi,2008.0,8.5,Amazon Prime,126.0,Director 45,Actor 225,Korean,Yes
+Movie 159,Horror,2004.0,7.3,Hulu,123.0,Director 88,Actor 104,French,Yes
+Movie 160,Comedy,1992.0,2.5,Blu-ray,171.0,Director 85,Actor 33,Korean,Yes
+,Sci-Fi,,4.0,Hulu,92.0,Director 33,Actor 295,English,No
+Movie 162,,1997.0,3.3,Hulu,94.0,Director 107,Actor 126,English,No
+Movie 163,Horror,2007.0,8.7,,170.0,Director 73,Actor 25,Hindi,No
+Movie 164,Documentary,1995.0,9.4,Hulu,,Director 142,Actor 15,English,Yes
+Movie 165,Horror,1990.0,9.2,,102.0,Director 5,Actor 186,Spanish,Yes
+Movie 166,Thriller,2021.0,3.1,Amazon Prime,156.0,Director 95,Actor 118,French,Yes
+Movie 167,Action,2022.0,9.0,TV,,Director 30,,Korean,Yes
+Movie 168,Documentary,1993.0,9.8,TV,118.0,,Actor 254,Spanish,No
+Movie 169,,1990.0,,Netflix,109.0,,Actor 69,Spanish,No
+Movie 170,,1985.0,6.4,Disney+,158.0,Director 87,Actor 188,Spanish,Yes
+Movie 171,Comedy,1988.0,6.3,TV,88.0,Director 189,Actor 255,,No
+Movie 172,Sci-Fi,2012.0,8.6,Blu-ray,94.0,Director 163,Actor 262,Hindi,Yes
+Movie 173,Action,2008.0,3.9,Hulu,107.0,Director 14,Actor 53,,Yes
+Movie 174,Documentary,1993.0,1.4,Netflix,98.0,Director 192,Actor 261,Korean,Yes
+Movie 175,Romance,,2.0,TV,93.0,,Actor 233,Korean,No
+Movie 176,Sci-Fi,2007.0,4.2,YouTube,81.0,Director 161,Actor 113,Spanish,
+Movie 177,Comedy,1986.0,7.4,Hulu,167.0,Director 196,Actor 30,French,Yes
+Movie 178,Thriller,,,Blu-ray,160.0,,Actor 253,Spanish,Yes
+Movie 179,Drama,,1.0,TV,154.0,Director 22,,Korean,
+Movie 180,Sci-Fi,1990.0,6.1,Disney+,109.0,Director 80,Actor 255,Korean,Yes
+Movie 181,Thriller,1997.0,,Amazon Prime,128.0,Director 172,Actor 144,French,Yes
+Movie 182,Sci-Fi,2022.0,6.7,TV,173.0,Director 30,Actor 201,French,No
+Movie 183,Sci-Fi,,2.1,,174.0,Director 96,Actor 4,English,Yes
+Movie 184,Drama,2003.0,3.0,YouTube,119.0,Director 1,,English,Yes
+Movie 185,Drama,1997.0,,Blu-ray,82.0,,Actor 94,Spanish,
+Movie 186,Drama,1995.0,,Blu-ray,151.0,,Actor 138,Korean,Yes
+Movie 187,Horror,2009.0,9.7,Blu-ray,128.0,,Actor 265,English,No
+,Comedy,1986.0,3.7,Netflix,114.0,Director 37,Actor 16,English,No
+Movie 189,Comedy,1996.0,8.2,Disney+,140.0,Director 100,Actor 114,French,Yes
+,Horror,1983.0,4.5,Hulu,165.0,Director 2,Actor 49,Korean,Yes
+Movie 191,Comedy,2011.0,5.1,Disney+,176.0,Director 3,Actor 189,French,No
+Movie 192,Sci-Fi,1984.0,5.5,TV,170.0,Director 163,Actor 68,Hindi,No
+Movie 193,Documentary,1992.0,,YouTube,113.0,Director 83,Actor 24,English,No
+Movie 194,Drama,1983.0,7.8,Netflix,130.0,,Actor 282,Hindi,Yes
+Movie 195,Action,1990.0,4.7,Hulu,129.0,Director 185,Actor 163,Hindi,No
+Movie 196,Drama,1981.0,4.0,,142.0,Director 140,Actor 293,Korean,Yes
+Movie 197,Sci-Fi,1981.0,4.8,Hulu,90.0,Director 74,Actor 156,,
+Movie 198,Horror,2003.0,2.1,,160.0,Director 191,Actor 244,Hindi,Yes
+Movie 199,Documentary,2009.0,3.7,YouTube,97.0,,Actor 249,Hindi,No
+Movie 200,Drama,2010.0,1.3,Netflix,131.0,Director 48,Actor 293,English,Yes
+Movie 201,Thriller,2012.0,8.5,Disney+,124.0,Director 139,Actor 283,English,No
+Movie 202,,,2.6,YouTube,131.0,Director 147,Actor 239,French,Yes
+Movie 203,Documentary,2008.0,8.1,Amazon Prime,,Director 179,Actor 127,Spanish,Yes
+Movie 204,Romance,2015.0,9.5,Hulu,88.0,Director 38,Actor 129,English,Yes
+Movie 205,Romance,2011.0,3.0,Blu-ray,148.0,Director 51,Actor 64,Korean,No
+Movie 206,Romance,2023.0,,,100.0,Director 75,Actor 171,,Yes
+Movie 207,Drama,1987.0,1.8,Amazon Prime,96.0,Director 43,Actor 264,Hindi,No
+,Documentary,2013.0,1.7,Amazon Prime,148.0,Director 148,Actor 80,French,No
+Movie 209,Thriller,1985.0,5.4,Amazon Prime,130.0,Director 138,Actor 210,Korean,No
+,Thriller,2007.0,9.3,Amazon Prime,173.0,Director 22,Actor 258,French,No
+Movie 211,Drama,,3.2,Disney+,106.0,Director 62,Actor 67,French,Yes
+Movie 212,Thriller,2019.0,6.9,TV,116.0,Director 165,,Spanish,
+Movie 213,Romance,,6.4,,170.0,Director 181,Actor 59,Korean,Yes
+Movie 214,Comedy,2002.0,9.3,Hulu,81.0,Director 98,Actor 245,Korean,Yes
+Movie 215,Romance,2017.0,7.9,Amazon Prime,116.0,Director 117,,French,No
+Movie 216,Romance,1994.0,2.3,Blu-ray,114.0,Director 152,Actor 216,Korean,
+Movie 217,Action,1982.0,3.8,TV,89.0,Director 116,Actor 249,English,Yes
+Movie 218,Action,2020.0,7.1,Disney+,82.0,,Actor 43,Hindi,No
+Movie 219,Sci-Fi,2001.0,3.3,YouTube,123.0,Director 142,Actor 101,,Yes
+Movie 220,,2003.0,2.0,Hulu,,Director 40,Actor 78,Korean,No
+Movie 221,Comedy,2002.0,9.2,Disney+,172.0,Director 104,Actor 206,Hindi,Yes
+Movie 222,Drama,2012.0,5.7,Netflix,,Director 5,Actor 14,French,No
+,Drama,1999.0,,TV,,Director 163,Actor 266,English,No
+Movie 224,Romance,2000.0,2.9,Blu-ray,166.0,Director 109,Actor 22,,No
+Movie 225,,1993.0,7.0,TV,126.0,Director 144,Actor 195,Korean,No
+Movie 226,Sci-Fi,1983.0,5.4,YouTube,137.0,Director 129,Actor 195,French,No
+Movie 227,Comedy,1983.0,6.1,YouTube,175.0,Director 128,,Hindi,Yes
+Movie 228,Thriller,2013.0,8.8,YouTube,116.0,Director 143,Actor 127,Korean,Yes
+Movie 229,,1997.0,3.2,,138.0,Director 9,Actor 185,Hindi,Yes
+Movie 230,Documentary,1997.0,5.3,Amazon Prime,116.0,Director 141,,French,
+Movie 231,Sci-Fi,2020.0,4.7,TV,,Director 66,Actor 74,Spanish,No
+Movie 232,Horror,2010.0,4.8,Netflix,108.0,Director 152,Actor 32,French,No
+Movie 233,Action,1983.0,9.3,Blu-ray,87.0,Director 36,Actor 3,Korean,Yes
+Movie 234,Comedy,1986.0,6.9,Hulu,,Director 151,Actor 46,Korean,No
+Movie 235,Drama,2011.0,5.7,Hulu,141.0,Director 184,Actor 138,English,No
+Movie 236,Drama,2005.0,3.4,TV,163.0,Director 77,Actor 175,Hindi,Yes
+Movie 237,Action,2019.0,1.2,Hulu,172.0,Director 118,Actor 246,Hindi,Yes
+Movie 238,Thriller,2018.0,6.7,YouTube,85.0,Director 161,Actor 234,English,No
+Movie 239,Sci-Fi,,3.6,Disney+,134.0,Director 58,Actor 119,Spanish,No
+Movie 240,Documentary,,5.4,Netflix,,Director 154,Actor 88,Hindi,Yes
+Movie 241,,2021.0,3.9,Hulu,152.0,Director 102,Actor 151,Korean,
+Movie 242,Documentary,2013.0,3.8,Amazon Prime,127.0,Director 115,Actor 217,English,No
+Movie 243,Documentary,1994.0,3.0,,147.0,Director 122,Actor 168,Spanish,Yes
+Movie 244,Thriller,2005.0,4.5,Blu-ray,116.0,Director 111,Actor 273,Spanish,No
+,Action,,7.0,YouTube,159.0,Director 90,,,
+Movie 246,,,2.0,Blu-ray,116.0,Director 2,Actor 2,Spanish,No
+Movie 247,Sci-Fi,2002.0,,,,,Actor 239,English,Yes
+Movie 248,Romance,1980.0,3.6,TV,146.0,Director 17,,English,No
+Movie 249,,1989.0,,,180.0,,Actor 53,Korean,Yes
+Movie 250,Comedy,1981.0,8.9,Blu-ray,156.0,Director 97,Actor 83,Korean,Yes
+Movie 251,Horror,1993.0,1.8,,,Director 92,Actor 250,Korean,Yes
+,Action,1987.0,3.1,Amazon Prime,121.0,Director 92,Actor 13,French,Yes
+,Romance,,7.8,Hulu,160.0,Director 186,Actor 8,English,No
+Movie 254,Action,2017.0,6.4,YouTube,177.0,Director 106,Actor 69,Spanish,Yes
+Movie 255,Action,2017.0,5.3,Amazon Prime,169.0,Director 137,Actor 181,French,No
+Movie 256,Documentary,2014.0,1.4,YouTube,,Director 120,Actor 111,Hindi,No
+Movie 257,Thriller,2013.0,7.1,YouTube,127.0,Director 115,Actor 265,English,
+Movie 258,Action,2001.0,4.4,Hulu,92.0,,Actor 277,English,No
+Movie 259,Drama,2002.0,7.5,Netflix,,Director 78,Actor 45,Hindi,Yes
+Movie 260,,1996.0,9.6,,142.0,Director 118,Actor 47,,No
+Movie 261,Romance,2017.0,6.6,Disney+,116.0,Director 106,Actor 144,English,No
+Movie 262,Action,2013.0,4.4,,117.0,Director 133,Actor 294,French,Yes
+Movie 263,,2004.0,,Disney+,111.0,Director 183,Actor 24,Spanish,Yes
+Movie 264,Documentary,2021.0,2.0,Netflix,106.0,Director 21,Actor 24,French,No
+Movie 265,Documentary,,6.3,TV,154.0,Director 148,Actor 15,English,No
+Movie 266,,1986.0,2.3,Hulu,130.0,Director 153,Actor 183,,No
+,Action,2017.0,6.9,TV,109.0,Director 146,Actor 196,,No
+Movie 268,Comedy,2006.0,8.7,Netflix,99.0,Director 129,Actor 235,,No
+Movie 269,Sci-Fi,2008.0,1.4,YouTube,99.0,Director 25,Actor 80,Hindi,Yes
+Movie 270,Action,2016.0,2.6,Hulu,121.0,Director 110,Actor 79,,No
+Movie 271,Comedy,2024.0,8.5,,80.0,,Actor 263,English,No
+Movie 272,,2019.0,,,131.0,Director 177,Actor 289,Spanish,Yes
+Movie 273,Romance,2018.0,1.1,Netflix,,Director 175,Actor 195,English,No
+Movie 274,Sci-Fi,1981.0,8.9,Blu-ray,165.0,Director 113,Actor 252,Hindi,Yes
+,Documentary,1995.0,,Amazon Prime,124.0,Director 103,Actor 277,,No
+Movie 276,Sci-Fi,1987.0,10.0,Blu-ray,111.0,,Actor 285,Korean,No
+,Action,,,,104.0,Director 127,Actor 263,Hindi,No
+Movie 278,Romance,2005.0,7.3,,102.0,Director 107,Actor 130,Hindi,No
+Movie 279,Horror,1981.0,1.3,Amazon Prime,149.0,Director 158,Actor 6,French,No
+Movie 280,Comedy,2013.0,4.9,YouTube,156.0,Director 73,Actor 248,Korean,Yes
+Movie 281,Comedy,2015.0,9.3,Disney+,149.0,Director 86,Actor 139,Korean,Yes
+Movie 282,Drama,1994.0,7.3,Disney+,134.0,Director 86,Actor 103,Korean,Yes
+Movie 283,Sci-Fi,1989.0,4.6,Amazon Prime,114.0,Director 118,Actor 243,Hindi,Yes
+Movie 284,Drama,,2.5,TV,92.0,Director 89,Actor 45,Korean,
+Movie 285,Romance,1987.0,7.7,Hulu,162.0,Director 99,Actor 127,English,
+Movie 286,Drama,1983.0,2.1,TV,114.0,Director 163,Actor 294,Korean,No
+Movie 287,Romance,2005.0,9.6,YouTube,159.0,Director 43,Actor 133,Korean,No
+Movie 288,Action,,,Netflix,129.0,Director 189,Actor 157,Hindi,No
+Movie 289,,1984.0,6.2,Amazon Prime,171.0,Director 37,Actor 175,Korean,No
+Movie 290,Drama,,9.6,Blu-ray,154.0,Director 60,Actor 90,Hindi,Yes
+Movie 291,Comedy,2011.0,5.0,Netflix,89.0,Director 83,Actor 87,Korean,Yes
+Movie 292,Action,1980.0,8.7,Blu-ray,91.0,Director 27,Actor 88,French,Yes
+Movie 293,Comedy,2007.0,8.2,Netflix,170.0,Director 6,Actor 232,English,Yes
+Movie 294,Action,1984.0,,Amazon Prime,140.0,Director 50,Actor 170,French,Yes
+Movie 295,Horror,1989.0,6.4,TV,163.0,Director 112,Actor 273,Spanish,Yes
+Movie 296,,1992.0,8.1,YouTube,106.0,Director 76,Actor 147,French,Yes
+Movie 297,Action,1999.0,4.9,TV,149.0,,Actor 44,Hindi,Yes
+Movie 298,Horror,2008.0,6.4,Hulu,134.0,Director 10,Actor 129,English,No
+Movie 299,Horror,2007.0,8.8,Blu-ray,171.0,Director 110,Actor 40,Korean,Yes
+Movie 300,Comedy,2004.0,4.8,Hulu,164.0,,Actor 293,French,Yes
+Movie 301,,2002.0,5.2,Hulu,114.0,Director 21,Actor 188,Spanish,Yes
+Movie 302,Thriller,,6.6,,130.0,Director 144,Actor 133,Hindi,Yes
+Movie 303,Documentary,1990.0,7.7,TV,112.0,,Actor 252,Hindi,
+Movie 304,Action,2004.0,8.1,YouTube,115.0,Director 87,,English,No
+Movie 305,Drama,1997.0,9.5,Blu-ray,127.0,Director 7,Actor 252,English,Yes
+,Documentary,1992.0,4.6,Blu-ray,98.0,Director 158,Actor 243,Hindi,No
+Movie 307,Documentary,1995.0,9.4,,147.0,Director 99,Actor 51,Spanish,Yes
+Movie 308,Documentary,1986.0,1.5,Netflix,,Director 12,Actor 188,,Yes
+Movie 309,Horror,1981.0,3.5,Disney+,114.0,Director 112,Actor 10,Spanish,No
+Movie 310,Thriller,1994.0,1.7,Amazon Prime,129.0,Director 78,Actor 84,Hindi,No
+Movie 311,Action,1990.0,,Blu-ray,,Director 25,Actor 220,Korean,No
+Movie 312,Romance,2011.0,8.3,Hulu,148.0,Director 24,Actor 284,,No
+Movie 313,Comedy,1980.0,,TV,89.0,Director 52,Actor 156,,No
+Movie 314,Action,2015.0,9.7,Netflix,80.0,Director 82,Actor 259,,
+Movie 315,Sci-Fi,1995.0,4.9,Amazon Prime,,Director 107,Actor 205,,Yes
+Movie 316,Drama,2019.0,6.9,Blu-ray,117.0,Director 106,Actor 182,Spanish,Yes
+Movie 317,Comedy,1999.0,5.5,Blu-ray,157.0,Director 121,Actor 88,Korean,No
+Movie 318,,2009.0,6.8,Netflix,134.0,Director 177,Actor 171,,No
+Movie 319,Thriller,1988.0,9.2,TV,96.0,Director 133,,Korean,Yes
+,Drama,1983.0,,YouTube,,Director 85,Actor 14,Hindi,No
+Movie 321,Thriller,2001.0,3.9,Blu-ray,179.0,Director 190,Actor 297,Spanish,No
+Movie 322,,2000.0,6.2,Hulu,136.0,Director 162,Actor 34,Korean,No
+Movie 323,Action,2022.0,3.8,Blu-ray,163.0,Director 135,Actor 124,Spanish,No
+Movie 324,Romance,1983.0,3.8,,84.0,Director 175,Actor 294,French,No
+,Sci-Fi,2000.0,,Netflix,121.0,Director 16,Actor 143,Hindi,No
+Movie 326,Sci-Fi,1997.0,9.4,Blu-ray,95.0,Director 167,Actor 282,Hindi,Yes
+Movie 327,Romance,2022.0,6.6,Hulu,92.0,Director 10,Actor 199,Hindi,No
+Movie 328,Documentary,1983.0,1.8,Amazon Prime,85.0,Director 29,Actor 8,English,Yes
+Movie 329,Romance,1996.0,7.7,Blu-ray,132.0,Director 184,Actor 250,English,No
+Movie 330,Drama,1988.0,6.8,Disney+,125.0,Director 170,Actor 95,French,No
+Movie 331,Documentary,,5.3,Disney+,127.0,Director 46,Actor 136,Korean,No
+Movie 332,Sci-Fi,2012.0,8.2,Netflix,109.0,Director 11,Actor 254,Korean,Yes
+Movie 333,Sci-Fi,2003.0,8.3,Disney+,95.0,Director 37,Actor 30,Spanish,Yes
+,Sci-Fi,2002.0,5.2,YouTube,,Director 196,Actor 195,Spanish,
+Movie 335,Action,,1.9,Amazon Prime,165.0,Director 163,Actor 137,Spanish,No
+Movie 336,Horror,2017.0,3.6,Blu-ray,135.0,Director 52,Actor 167,English,Yes
+Movie 337,Romance,1983.0,2.2,TV,169.0,Director 44,Actor 136,,
+Movie 338,Romance,2015.0,,Disney+,81.0,Director 161,,English,Yes
+Movie 339,Romance,1980.0,,Hulu,122.0,Director 124,Actor 189,French,
+Movie 340,Sci-Fi,1985.0,3.8,YouTube,91.0,Director 40,Actor 187,,Yes
+Movie 341,Thriller,1997.0,3.1,TV,,Director 13,Actor 143,Korean,Yes
+Movie 342,Thriller,2003.0,7.1,TV,,Director 103,Actor 182,English,Yes
+Movie 343,Romance,2015.0,2.1,TV,90.0,Director 159,Actor 165,French,No
+Movie 344,Thriller,1998.0,,Hulu,144.0,Director 22,Actor 18,Korean,Yes
+,Comedy,2016.0,1.0,Blu-ray,119.0,Director 94,Actor 245,Korean,
+Movie 346,Comedy,2000.0,2.0,Disney+,168.0,Director 183,Actor 246,Hindi,
+Movie 347,Thriller,1993.0,4.1,Amazon Prime,109.0,Director 176,Actor 88,Spanish,Yes
+Movie 348,,2018.0,4.6,Hulu,144.0,Director 100,Actor 151,French,No
+Movie 349,Drama,1999.0,,TV,,Director 19,Actor 153,,
+Movie 350,Thriller,1988.0,1.6,TV,,Director 149,Actor 50,,
+Movie 351,Thriller,2011.0,5.0,YouTube,97.0,Director 42,Actor 293,Hindi,No
+Movie 352,Sci-Fi,1986.0,,Netflix,125.0,Director 25,Actor 47,Spanish,Yes
+,Action,2009.0,8.3,TV,133.0,Director 179,,English,
+Movie 354,Horror,,2.8,Disney+,93.0,Director 126,Actor 67,English,Yes
+Movie 355,Thriller,2009.0,7.5,Blu-ray,162.0,Director 178,Actor 111,Korean,Yes
+Movie 356,Thriller,2023.0,7.6,YouTube,155.0,Director 79,Actor 127,Spanish,No
+Movie 357,Romance,2006.0,9.2,TV,149.0,Director 76,Actor 260,English,No
+Movie 358,Drama,2007.0,9.0,Netflix,105.0,Director 43,Actor 260,English,No
+Movie 359,Drama,,1.3,TV,82.0,,Actor 153,French,No
+Movie 360,Thriller,1999.0,4.1,Blu-ray,156.0,,Actor 47,,No
+Movie 361,Drama,1992.0,5.3,Amazon Prime,179.0,Director 162,Actor 46,English,Yes
+Movie 362,Horror,2017.0,3.5,Amazon Prime,179.0,Director 91,Actor 263,,Yes
+,Comedy,2012.0,5.1,TV,92.0,Director 153,Actor 176,Spanish,Yes
+Movie 364,Sci-Fi,2002.0,2.3,Disney+,136.0,Director 110,Actor 112,English,Yes
+Movie 365,Comedy,,4.1,Disney+,165.0,Director 88,Actor 239,French,Yes
+,Action,,3.1,Disney+,120.0,Director 5,,Korean,Yes
+Movie 367,Drama,,7.1,Netflix,171.0,Director 111,Actor 215,Korean,No
+,Thriller,2018.0,3.4,Blu-ray,169.0,,Actor 239,English,No
+Movie 369,Thriller,1997.0,7.3,YouTube,95.0,,Actor 154,Hindi,No
+Movie 370,Drama,1986.0,5.1,,99.0,Director 189,Actor 268,Korean,No
+Movie 371,Sci-Fi,,7.8,YouTube,106.0,Director 146,,French,No
+,Horror,1989.0,8.9,Hulu,126.0,Director 122,Actor 17,,Yes
+Movie 373,Action,2008.0,8.3,TV,,Director 47,Actor 49,Spanish,No
+Movie 374,Comedy,1982.0,,,152.0,Director 77,,,Yes
+Movie 375,Comedy,2023.0,3.0,Disney+,,Director 154,Actor 158,French,No
+Movie 376,Documentary,2021.0,6.3,Disney+,,Director 97,,Hindi,No
+Movie 377,Sci-Fi,1982.0,8.1,Disney+,110.0,Director 191,Actor 169,French,No
+Movie 378,Romance,2020.0,9.8,Hulu,137.0,Director 179,Actor 149,Korean,Yes
+Movie 379,Action,,9.2,,94.0,Director 55,Actor 150,,Yes
+Movie 380,Documentary,2013.0,5.0,YouTube,106.0,Director 61,Actor 59,Spanish,No
+Movie 381,Romance,2011.0,2.8,Amazon Prime,118.0,,,Hindi,Yes
+Movie 382,Action,1984.0,4.0,Disney+,177.0,,Actor 167,French,No
+Movie 383,Horror,,1.9,Blu-ray,134.0,Director 188,Actor 232,English,
+Movie 384,,1983.0,5.4,Netflix,123.0,Director 179,Actor 31,English,No
+Movie 385,Sci-Fi,2012.0,3.8,YouTube,,Director 109,Actor 241,English,
+Movie 386,Documentary,2014.0,2.3,Hulu,180.0,Director 17,Actor 291,French,Yes
+Movie 387,Horror,1994.0,9.4,Blu-ray,117.0,Director 154,Actor 237,Hindi,No
+Movie 388,Thriller,1990.0,,Blu-ray,113.0,Director 157,Actor 290,Hindi,Yes
+Movie 389,Comedy,2020.0,,Hulu,165.0,Director 17,Actor 222,French,No
+Movie 390,Documentary,1992.0,8.8,YouTube,95.0,Director 196,,Hindi,Yes
+Movie 391,Thriller,1981.0,4.7,Netflix,99.0,Director 124,Actor 27,Spanish,No
+Movie 392,Documentary,2007.0,1.2,Amazon Prime,170.0,Director 18,Actor 83,French,No
+Movie 393,Drama,2002.0,,YouTube,140.0,Director 136,Actor 54,Korean,Yes
+Movie 394,Sci-Fi,2007.0,,TV,,Director 185,Actor 221,Spanish,No
+Movie 395,Action,1998.0,8.8,,163.0,Director 25,Actor 254,Spanish,No
+Movie 396,Sci-Fi,2016.0,8.3,Amazon Prime,95.0,Director 7,Actor 227,Korean,Yes
+Movie 397,Horror,1997.0,9.8,Disney+,156.0,Director 102,Actor 228,English,No
+Movie 398,Sci-Fi,1994.0,,Amazon Prime,99.0,Director 57,Actor 117,English,No
+Movie 399,Action,2018.0,8.2,Disney+,113.0,Director 58,Actor 229,Hindi,Yes
+Movie 400,Sci-Fi,1980.0,3.1,Netflix,132.0,Director 196,Actor 177,English,No
+Movie 401,Drama,1991.0,5.1,Disney+,85.0,Director 43,Actor 18,English,No
+Movie 402,Thriller,2012.0,9.8,Amazon Prime,177.0,Director 71,Actor 258,Hindi,Yes
+Movie 403,Documentary,2006.0,8.0,Hulu,136.0,,Actor 197,English,Yes
+Movie 404,Action,2023.0,5.8,Disney+,93.0,Director 133,,Spanish,Yes
+,Documentary,2000.0,8.3,Disney+,172.0,Director 48,Actor 33,French,No
+Movie 406,,2000.0,5.2,Hulu,,Director 68,Actor 23,Korean,No
+Movie 407,Documentary,1994.0,5.7,,85.0,Director 138,Actor 123,French,Yes
+Movie 408,Drama,1986.0,4.5,Netflix,135.0,Director 183,,Korean,No
+Movie 409,Action,2016.0,6.8,Disney+,158.0,Director 96,Actor 212,Korean,Yes
+Movie 410,Horror,2008.0,7.2,Disney+,132.0,Director 182,Actor 81,Spanish,Yes
+Movie 411,Horror,2005.0,2.7,Disney+,115.0,Director 180,Actor 210,French,Yes
+Movie 412,Action,1982.0,2.1,Netflix,174.0,,Actor 1,Spanish,No
+Movie 413,Drama,2005.0,9.8,Hulu,148.0,Director 72,Actor 284,Korean,No
+Movie 414,Thriller,1998.0,6.1,YouTube,153.0,Director 198,Actor 279,Spanish,No
+Movie 415,Drama,1995.0,7.2,Disney+,113.0,,,Korean,No
+Movie 416,Drama,2004.0,6.4,Hulu,,Director 24,Actor 226,French,No
+Movie 417,Sci-Fi,1990.0,2.1,Amazon Prime,129.0,Director 139,Actor 178,English,Yes
+,Documentary,1988.0,4.9,TV,138.0,Director 177,Actor 142,Hindi,Yes
+Movie 419,Action,,1.9,Netflix,97.0,Director 10,Actor 70,,Yes
+Movie 420,Action,2003.0,2.7,Netflix,157.0,Director 95,Actor 85,,Yes
+,Sci-Fi,1986.0,2.3,Disney+,167.0,Director 23,Actor 30,English,No
+Movie 422,Drama,2005.0,7.8,YouTube,144.0,Director 130,Actor 237,Hindi,Yes
+Movie 423,Thriller,1983.0,2.5,Blu-ray,91.0,Director 89,Actor 84,French,No
+Movie 424,Sci-Fi,1986.0,2.7,Netflix,95.0,Director 59,Actor 211,Spanish,No
+Movie 425,Sci-Fi,1980.0,8.6,Disney+,110.0,Director 72,Actor 298,Korean,No
+Movie 426,Thriller,2011.0,4.7,Netflix,161.0,Director 11,Actor 21,Spanish,Yes
+Movie 427,Horror,1996.0,7.8,Amazon Prime,81.0,Director 111,,French,Yes
+Movie 428,Documentary,,6.4,,119.0,,Actor 93,Hindi,Yes
+Movie 429,Comedy,1984.0,3.6,Disney+,125.0,Director 146,Actor 116,Korean,Yes
+Movie 430,Horror,2017.0,,,136.0,Director 148,Actor 151,Hindi,Yes
+,Horror,2022.0,1.5,YouTube,149.0,Director 7,Actor 164,Hindi,Yes
+Movie 432,Sci-Fi,1997.0,5.3,Hulu,120.0,Director 92,Actor 28,Spanish,Yes
+Movie 433,Documentary,1981.0,5.4,,89.0,Director 41,Actor 182,Hindi,Yes
+Movie 434,Romance,1994.0,4.0,TV,123.0,Director 195,Actor 43,Korean,No
+,,2006.0,5.3,,150.0,Director 102,Actor 81,French,No
+Movie 436,Drama,2018.0,9.0,Disney+,131.0,Director 138,Actor 283,Spanish,No
+Movie 437,Sci-Fi,1982.0,5.0,YouTube,159.0,Director 122,Actor 78,Spanish,No
+Movie 438,Comedy,2001.0,,Blu-ray,115.0,Director 8,Actor 179,,Yes
+Movie 439,Action,2013.0,3.5,Amazon Prime,128.0,Director 43,Actor 75,French,No
+Movie 440,Documentary,2021.0,5.7,Netflix,142.0,Director 178,,Hindi,
+Movie 441,Comedy,2005.0,4.9,Amazon Prime,173.0,Director 101,Actor 224,Spanish,Yes
+Movie 442,Drama,1990.0,9.4,Netflix,102.0,Director 82,Actor 183,Hindi,Yes
+Movie 443,,2003.0,4.7,Hulu,91.0,,Actor 87,French,No
+Movie 444,Sci-Fi,1983.0,1.8,TV,,Director 139,Actor 153,Spanish,Yes
+Movie 445,Comedy,1989.0,2.4,Netflix,94.0,Director 12,Actor 102,French,Yes
+Movie 446,Thriller,2024.0,8.1,Disney+,145.0,Director 21,Actor 289,Korean,Yes
+,,1984.0,4.4,Netflix,135.0,Director 78,,Korean,Yes
+Movie 448,Drama,2011.0,4.2,,105.0,Director 36,Actor 263,Hindi,No
+Movie 449,Horror,,2.0,Blu-ray,130.0,Director 5,,Korean,Yes
+Movie 450,Sci-Fi,2002.0,9.2,Amazon Prime,126.0,Director 144,Actor 57,,Yes
+Movie 451,Romance,1989.0,5.8,Amazon Prime,92.0,Director 120,Actor 72,Hindi,Yes
+Movie 452,Romance,2009.0,8.9,YouTube,154.0,Director 48,Actor 219,French,
+Movie 453,Romance,1983.0,4.3,Hulu,103.0,Director 42,Actor 63,Korean,Yes
+Movie 454,Comedy,2018.0,,Disney+,112.0,Director 149,Actor 92,French,No
+Movie 455,,1994.0,10.0,,97.0,Director 170,Actor 254,Korean,No
+Movie 456,Documentary,2017.0,2.4,Netflix,106.0,,Actor 96,Hindi,No
+Movie 457,Comedy,2017.0,6.4,Blu-ray,102.0,Director 126,,Hindi,Yes
+Movie 458,Romance,2005.0,4.0,TV,156.0,Director 183,Actor 76,Spanish,No
+Movie 459,Horror,1998.0,4.6,Netflix,166.0,Director 15,Actor 186,Hindi,
+Movie 460,Documentary,,5.1,YouTube,136.0,,Actor 298,English,Yes
+Movie 461,Thriller,1993.0,,Blu-ray,120.0,Director 73,Actor 121,Spanish,Yes
+Movie 462,Sci-Fi,2019.0,4.1,Amazon Prime,80.0,Director 56,,English,Yes
+Movie 463,Drama,1987.0,9.9,Netflix,148.0,Director 194,Actor 15,French,
+Movie 464,Romance,2022.0,6.0,Amazon Prime,96.0,Director 156,Actor 42,Korean,No
+Movie 465,Comedy,1982.0,5.2,,118.0,Director 21,Actor 116,Spanish,Yes
+Movie 466,Comedy,1998.0,4.3,YouTube,85.0,Director 36,,Hindi,
+,Comedy,2017.0,9.9,Amazon Prime,94.0,Director 150,Actor 6,Korean,No
+,Drama,2011.0,2.5,YouTube,160.0,Director 149,Actor 240,Hindi,Yes
+Movie 469,Action,2008.0,3.6,Disney+,,Director 183,Actor 293,Spanish,
+Movie 470,Comedy,2018.0,6.2,Netflix,127.0,Director 75,Actor 225,French,
+Movie 471,Comedy,,3.8,TV,169.0,Director 72,Actor 175,Korean,Yes
+Movie 472,,1991.0,,Blu-ray,129.0,Director 26,Actor 185,Hindi,No
+Movie 473,Sci-Fi,2004.0,8.4,TV,136.0,Director 79,Actor 49,English,No
+Movie 474,Documentary,1993.0,,Amazon Prime,99.0,Director 187,Actor 259,Korean,No
+,Sci-Fi,2000.0,6.6,Hulu,176.0,Director 39,Actor 3,French,Yes
+,Comedy,2011.0,1.4,Disney+,180.0,Director 132,Actor 127,French,No
+Movie 477,Documentary,2003.0,6.8,Hulu,136.0,Director 93,Actor 146,Hindi,Yes
+Movie 478,Comedy,2021.0,,Amazon Prime,140.0,Director 152,Actor 124,,Yes
+Movie 479,Drama,2020.0,6.3,Amazon Prime,128.0,Director 111,Actor 65,,No
+Movie 480,,1996.0,,Netflix,132.0,Director 159,Actor 273,Korean,Yes
+Movie 481,,2014.0,3.6,TV,180.0,Director 152,,French,Yes
+Movie 482,Comedy,1989.0,6.6,Hulu,,,Actor 138,English,Yes
+Movie 483,Drama,2001.0,8.5,Netflix,,Director 124,Actor 142,,Yes
+Movie 484,Comedy,2012.0,7.1,Netflix,164.0,Director 13,Actor 252,Spanish,Yes
+Movie 485,Thriller,2006.0,7.4,,81.0,Director 8,Actor 225,Hindi,No
+Movie 486,Romance,,3.3,Hulu,85.0,,Actor 279,Korean,No
+Movie 487,,2004.0,6.0,YouTube,80.0,,Actor 217,French,Yes
+Movie 488,Comedy,2000.0,5.1,YouTube,135.0,Director 156,Actor 107,,No
+Movie 489,,2007.0,7.8,Amazon Prime,116.0,,Actor 213,Korean,No
+Movie 490,Sci-Fi,1987.0,9.2,,99.0,Director 27,Actor 4,Korean,Yes
+Movie 491,Drama,2020.0,4.8,Disney+,115.0,Director 63,Actor 90,Hindi,No
+,Comedy,1981.0,1.7,,144.0,Director 59,,Korean,
+Movie 493,Comedy,1998.0,,Netflix,90.0,Director 51,Actor 2,English,
+Movie 494,,1998.0,4.2,Blu-ray,145.0,Director 200,Actor 39,French,No
+Movie 495,Action,2006.0,2.1,Amazon Prime,166.0,,Actor 2,Korean,Yes
+Movie 496,,,2.0,Netflix,122.0,,Actor 30,English,No
+Movie 497,Romance,1988.0,2.5,Amazon Prime,153.0,Director 198,Actor 90,English,No
+Movie 498,Action,,3.0,Disney+,85.0,Director 34,,Spanish,No
+Movie 499,Action,1999.0,1.5,Blu-ray,135.0,Director 127,Actor 180,Korean,Yes
+Movie 500,Drama,1992.0,5.1,Hulu,154.0,Director 44,Actor 150,Korean,No
