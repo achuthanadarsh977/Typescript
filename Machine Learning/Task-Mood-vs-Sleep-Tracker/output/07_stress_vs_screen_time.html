@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stress Level vs Screen Time</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#f0f2f5;display:flex;justify-content:center;align-items:center;min-height:100vh}.container{background:#fff;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.1);padding:30px;max-width:900px;width:95%}h1{text-align:center;color:#333;margin-bottom:20px;font-size:1.4rem}canvas{max-width:100%}</style>
+</head>
+<body>
+  <div class="container"><h1>Stress Level vs Screen Time</h1><canvas id="chart" width="800" height="600"></canvas></div>
+  <script>new Chart(document.getElementById('chart').getContext('2d'), { type:'bar', data:{ labels:["1","2","3","4","5","6","7","8","9","10"], datasets:[
+    { label:'Min', data:[-1.478875449880138,0.4709700412077673,1.8726206293091496,-0.4069602595231441,-0.8579027294021948,-1.3756229520802865,-0.29819908653411886,0.768316869533546,-0.8273448840899444,1.0074474702571679], backgroundColor:'rgba(54,162,235,0.3)', borderWidth:1 },
+    { label:'Q1', data:[4.351412566365515,3.4737512234646837,4.240306142176182,3.4613799510161307,3.073044924529613,3.4579651632695008,3.6949817191585526,3.8415996845573526,3.5709709351885226,3.3980648062080405], backgroundColor:'rgba(54,162,235,0.5)', borderWidth:1 },
+    { label:'Median', data:[5.3286366638020235,5.070253339855474,5.185715247943403,4.53813510024934,4.711063169400413,4.979030046287991,5.1171742750847065,5.012569049783746,5.347922299371416,4.757806623068412], backgroundColor:'rgba(255,206,86,0.8)', borderWidth:1 },
+    { label:'Q3', data:[6.824966779094829,6.351393898788776,6.323578909381469,6.259829724092588,6.1580154002985275,5.925332273639775,6.761428776012968,6.514786937954779,6.402650009135519,6.178698754756305], backgroundColor:'rgba(75,192,192,0.5)', borderWidth:1 },
+    { label:'Max', data:[8.705129457550099,8.535658116810357,9.440037468846526,8.885336248323007,9.723222888009381,8.77467179778883,10.059129010925645,9.898919597916201,11.243793794852088,9.839583466020926], backgroundColor:'rgba(255,99,132,0.3)', borderWidth:1 }
+  ] }, options:{ responsive:true, plugins:{ title:{ display:true, text:'Stress Level vs Screen Time (Box Plot Stats)', font:{size:18} } }, scales:{ x:{ title:{ display:true, text:'Stress Level' } }, y:{ title:{ display:true, text:'Screen Time (hrs)' } } } } });</script>
+</body>
+</html>
