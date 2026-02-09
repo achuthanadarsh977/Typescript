@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watched On Platform Distribution</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    .container { background: #fff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 30px; max-width: 900px; width: 95%; }
+    h1 { text-align: center; color: #333; margin-bottom: 20px; font-size: 1.4rem; }
+    canvas { max-width: 100%; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Watched On Platform Distribution</h1>
+    <canvas id="chart" width="800" height="600"></canvas>
+  </div>
+  <script>
+    const ctx = document.getElementById('chart').getContext('2d');
+    new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["Hulu","Netflix","Amazon Prime","Disney+","Blu-ray","TV","YouTube"],
+      datasets: [{
+        label: 'Count',
+        data: [71,68,65,64,62,61,59],
+        backgroundColor: ["rgba(255, 99, 132, 0.7)","rgba(54, 162, 235, 0.7)","rgba(255, 206, 86, 0.7)","rgba(75, 192, 192, 0.7)","rgba(153, 102, 255, 0.7)","rgba(255, 159, 64, 0.7)","rgba(199, 199, 199, 0.7)"],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: { title: { display: true, text: 'Watched On Platform Distribution', font: { size: 18 } } },
+      scales: { y: { beginAtZero: true, title: { display: true, text: 'Count' } } }
+    }
+  });
+  </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rewatch Frequency by Rating (Box Plot Stats)</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    .container { background: #fff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 30px; max-width: 900px; width: 95%; }
+    h1 { text-align: center; color: #333; margin-bottom: 20px; font-size: 1.4rem; }
+    canvas { max-width: 100%; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Rewatch Frequency by Rating (Box Plot Stats)</h1>
+    <canvas id="chart" width="800" height="600"></canvas>
+  </div>
+  <script>
+    const ctx = document.getElementById('chart').getContext('2d');
+    new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["No","Yes"],
+      datasets: [
+        { label: 'Min', data: [1.1,1], backgroundColor: 'rgba(54, 162, 235, 0.3)', borderWidth: 1 },
+        { label: 'Q1', data: [3.4,3.4], backgroundColor: 'rgba(54, 162, 235, 0.5)', borderWidth: 1 },
+        { label: 'Median', data: [5.2,5.7], backgroundColor: 'rgba(255, 206, 86, 0.8)', borderWidth: 1 },
+        { label: 'Q3', data: [7.5,8.1], backgroundColor: 'rgba(75, 192, 192, 0.5)', borderWidth: 1 },
+        { label: 'Max', data: [10,9.9], backgroundColor: 'rgba(255, 99, 132, 0.3)', borderWidth: 1 }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { title: { display: true, text: 'Rewatch Frequency by Rating (Box Plot Stats)', font: { size: 18 } } },
+      scales: {
+        x: { title: { display: true, text: 'Rewatch' } },
+        y: { title: { display: true, text: 'Rating' }, beginAtZero: true }
+      }
+    }
+  });
+  </script>
+</body>
+</html>

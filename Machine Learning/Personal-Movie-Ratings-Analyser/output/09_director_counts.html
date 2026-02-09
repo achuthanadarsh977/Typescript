@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 20 Directors by Movie Count</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    .container { background: #fff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 30px; max-width: 900px; width: 95%; }
+    h1 { text-align: center; color: #333; margin-bottom: 20px; font-size: 1.4rem; }
+    canvas { max-width: 100%; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Top 20 Directors by Movie Count</h1>
+    <canvas id="chart" width="800" height="700"></canvas>
+  </div>
+  <script>
+    const ctx = document.getElementById('chart').getContext('2d');
+    new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["Director 42","Director 152","Director 111","Director 189","Director 92","Director 13","Director 73","Director 102","Director 196","Director 25","Director 163","Director 43","Director 183","Director 85","Director 178","Director 170","Director 138","Director 36","Director 9","Director 83"],
+      datasets: [{
+        label: 'Movie Count',
+        data: [6,6,6,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4],
+        backgroundColor: 'rgba(75, 192, 192, 0.7)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: { title: { display: true, text: 'Top 20 Directors by Movie Count', font: { size: 18 } } },
+      scales: { x: { beginAtZero: true, title: { display: true, text: 'Count' } } }
+    }
+  });
+  </script>
+</body>
+</html>
