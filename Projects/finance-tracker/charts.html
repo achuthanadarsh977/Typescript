@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finance Tracker — Charts</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f8fafc;
+      color: #111;
+      padding: 40px 20px;
+    }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+    p.sub { color: #666; font-size: 14px; margin-bottom: 36px; }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      max-width: 900px;
+      margin: 0 auto 40px;
+    }
+    .summary-card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 18px 22px;
+    }
+    .summary-card .label { font-size: 13px; color: #888; margin-bottom: 6px; }
+    .summary-card .value { font-size: 26px; font-weight: 700; }
+    .income  { color: #16a34a; }
+    .expense { color: #dc2626; }
+    .balance { color: #1d4ed8; }
+
+    .charts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      max-width: 900px;
+      margin: 0 auto 40px;
+    }
+    .chart-card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 24px;
+    }
+    .chart-card h2 { font-size: 16px; font-weight: 600; margin-bottom: 20px; color: #333; }
+
+    .chart-full {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 24px;
+    }
+    .chart-full h2 { font-size: 16px; font-weight: 600; margin-bottom: 20px; color: #333; }
+
+    @media (max-width: 600px) {
+      .charts { grid-template-columns: 1fr; }
+      .summary { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div style="max-width:900px; margin:0 auto 32px;">
+    <h1>Finance Tracker — Charts</h1>
+    <p class="sub">Visual breakdown of your income and expenses · Source: src/data.ts</p>
+  </div>
+
+  <!-- Summary -->
+  <div class="summary">
+    <div class="summary-card">
+      <div class="label">Total Income</div>
+      <div class="value income">$5,000</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Total Expenses</div>
+      <div class="value expense">$2,370</div>
+    </div>
+    <div class="summary-card">
+      <div class="label">Balance</div>
+      <div class="value balance">$2,630</div>
+    </div>
+  </div>
+
+  <!-- Pie + Bar side by side -->
+  <div class="charts">
+    <div class="chart-card">
+      <h2>Expenses by Category (Pie)</h2>
+      <canvas id="pieChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h2>Amount by Category (Bar)</h2>
+      <canvas id="barChart"></canvas>
+    </div>
+  </div>
+
+  <!-- Transaction amounts over time -->
+  <div class="chart-full">
+    <h2>Transaction Amounts Over Time (Bar)</h2>
+    <canvas id="timelineChart"></canvas>
+  </div>
+
+  <script>
+    const transactions = [
+      { date: '2025-01-01', description: 'Salary',        category: 'salary',        type: 'income',  amount: 5000 },
+      { date: '2025-01-02', description: 'Rent',          category: 'housing',       type: 'expense', amount: 1200 },
+      { date: '2025-01-03', description: 'Groceries',     category: 'food',          type: 'expense', amount: 150  },
+      { date: '2025-01-05', description: 'Freelance Work',category: 'salary',        type: 'expense', amount: 800  },
+      { date: '2025-01-06', description: 'Electric Bill', category: 'utilities',     type: 'expense', amount: 95   },
+      { date: '2025-01-07', description: 'Dinner Out',    category: 'food',          type: 'expense', amount: 65   },
+      { date: '2025-01-08', description: 'Gas',           category: 'transport',     type: 'expense', amount: 45   },
+      { date: '2025-01-10', description: 'Netflix',       category: 'entertainment', type: 'expense', amount: 15   },
+    ]
+
+    const COLORS = [
+      '#3b82f6', '#ef4444', '#10b981', '#f59e0b',
+      '#8b5cf6', '#ec4899', '#06b6d4', '#84cc16',
+    ]
+
+    // --- Aggregate by category ---
+    const categoryMap = {}
+    transactions.forEach(t => {
+      categoryMap[t.category] = (categoryMap[t.category] || 0) + t.amount
+    })
+    const catLabels = Object.keys(categoryMap)
+    const catValues = Object.values(categoryMap)
+
+    // --- Pie Chart: Expenses by Category ---
+    new Chart(document.getElementById('pieChart'), {
+      type: 'pie',
+      data: {
+        labels: catLabels,
+        datasets: [{
+          data: catValues,
+          backgroundColor: COLORS,
+          borderWidth: 2,
+          borderColor: '#fff',
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom', labels: { font: { size: 12 }, padding: 14 } },
+          tooltip: {
+            callbacks: {
+              label: ctx => ` ${ctx.label}: $${ctx.parsed.toLocaleString()} (${((ctx.parsed / catValues.reduce((a,b)=>a+b,0))*100).toFixed(1)}%)`
+            }
+          }
+        }
+      }
+    })
+
+    // --- Bar Chart: Amount by Category ---
+    new Chart(document.getElementById('barChart'), {
+      type: 'bar',
+      data: {
+        labels: catLabels,
+        datasets: [{
+          label: 'Amount ($)',
+          data: catValues,
+          backgroundColor: COLORS,
+          borderRadius: 6,
+          borderSkipped: false,
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: ctx => ` $${ctx.parsed.y.toLocaleString()}` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 12 } } },
+          y: {
+            beginAtZero: true,
+            grid: { color: '#f1f5f9' },
+            ticks: { callback: v => '$' + v.toLocaleString(), font: { size: 12 } }
+          }
+        }
+      }
+    })
+
+    // --- Timeline Bar Chart: Amount per transaction date ---
+    const timeLabels = transactions.map(t => `${t.description} (${t.date})`)
+    const timeValues = transactions.map(t => t.amount)
+    const timeColors = transactions.map(t => t.type === 'income' ? '#16a34a' : '#ef4444')
+
+    new Chart(document.getElementById('timelineChart'), {
+      type: 'bar',
+      data: {
+        labels: timeLabels,
+        datasets: [{
+          label: 'Amount ($)',
+          data: timeValues,
+          backgroundColor: timeColors,
+          borderRadius: 5,
+          borderSkipped: false,
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: ctx => ` $${ctx.parsed.y.toLocaleString()}` } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 11 }, maxRotation: 30 } },
+          y: {
+            beginAtZero: true,
+            grid: { color: '#f1f5f9' },
+            ticks: { callback: v => '$' + v.toLocaleString(), font: { size: 12 } }
+          }
+        }
+      }
+    })
+  </script>
+
+</body>
+</html>
