@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Context Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <div class="logo">&#129504; AI Context Explorer</div>
+    <div class="header-right">
+        <select id="modelSelect"><option value="llama3.2">llama3.2</option></select>
+        <button class="btn-danger" onclick="clearContext()">&#128465; New Chat</button>
+    </div>
+</header>
+
+<div class="layout">
+
+    <!-- LEFT: Chat -->
+    <div class="chat-panel">
+        <div class="chat-messages" id="chatMessages">
+            <div class="welcome">
+                <div class="welcome-icon">&#129504;</div>
+                <h2>Start a conversation</h2>
+                <p>Ask me anything. Upload files to give me more context and watch how it improves my answers.</p>
+            </div>
+        </div>
+
+        <div class="chat-input-area">
+            <div class="upload-bar" id="uploadedBar"></div>
+            <div class="input-row">
+                <label class="upload-btn" title="Upload a file (.txt, .md, .csv)">
+                    &#128206;
+                    <input type="file" id="fileInput" accept=".txt,.md,.csv,.json" style="display:none" onchange="uploadFile(this)" />
+                </label>
+                <textarea id="messageInput" placeholder="Ask anything... (Shift+Enter for new line)" rows="1" onkeydown="handleKey(event)"></textarea>
+                <button class="send-btn" onclick="sendMessage()">&#10148;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT: Context Visualizer -->
+    <div class="context-panel">
+        <h3 class="panel-title">&#128064; Context Window</h3>
+
+        <!-- Meter -->
+        <div class="meter-box">
+            <div class="meter-header">
+                <span>Context Used</span>
+                <span id="meterPercent">0%</span>
+            </div>
+            <div class="meter-track">
+                <div class="meter-fill system-color" id="meterSystem" style="width:0%"></div>
+                <div class="meter-fill file-color" id="meterFiles" style="width:0%"></div>
+                <div class="meter-fill history-color" id="meterHistory" style="width:0%"></div>
+            </div>
+            <div class="meter-legend">
+                <span><span class="dot system-color"></span>System</span>
+                <span><span class="dot file-color"></span>Files</span>
+                <span><span class="dot history-color"></span>History</span>
+            </div>
+            <div class="meter-words" id="meterWords">0 / 96,000 words</div>
+        </div>
+
+        <!-- System Prompt -->
+        <div class="ctx-card">
+            <div class="ctx-card-header system-header" onclick="toggleCard('systemBody')">
+                <span>&#128274; System Prompt</span>
+                <span class="ctx-badge system-badge" id="systemWordCount">— words</span>
+            </div>
+            <div class="ctx-card-body" id="systemBody" style="display:none">
+                <p id="systemPromptText" class="ctx-text"></p>
+            </div>
+        </div>
+
+        <!-- Uploaded Files -->
+        <div class="ctx-card">
+            <div class="ctx-card-header file-header" onclick="toggleCard('filesBody')">
+                <span>&#128196; Uploaded Files</span>
+                <span class="ctx-badge file-badge" id="fileWordCount">0 words</span>
+            </div>
+            <div class="ctx-card-body" id="filesBody">
+                <div id="fileList" class="file-list">
+                    <p class="empty-msg">No files uploaded yet.<br/>Upload a .txt or .csv file to give the AI more context.</p>
+                </div>
+                <label class="upload-inline-btn">
+                    + Upload File
+                    <input type="file" accept=".txt,.md,.csv,.json" style="display:none" onchange="uploadFile(this)" />
+                </label>
+            </div>
+        </div>
+
+        <!-- Chat History -->
+        <div class="ctx-card">
+            <div class="ctx-card-header history-header" onclick="toggleCard('historyBody')">
+                <span>&#128172; Chat History</span>
+                <span class="ctx-badge history-badge" id="historyWordCount">0 words</span>
+            </div>
+            <div class="ctx-card-body" id="historyBody" style="display:none">
+                <p id="historyStats" class="ctx-text">No messages yet.</p>
+            </div>
+        </div>
+
+        <!-- Tip -->
+        <div class="tip-box">
+            <div class="tip-title">&#128161; Tip</div>
+            <p id="tipText"></p>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

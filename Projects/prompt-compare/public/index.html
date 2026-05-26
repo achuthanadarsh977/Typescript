@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompt Compare</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <div class="logo">&#9679; DeepLearning.AI</div>
+    <div class="header-right">
+        <select id="modelSelect"><option value="llama3.2">llama3.2</option></select>
+        <button class="btn-outline" onclick="newChat()">&#43; New Chat</button>
+    </div>
+</header>
+
+<main>
+    <h1>What prompts do you want to compare?</h1>
+
+    <div class="panels">
+
+        <!-- Left: Web Search -->
+        <div class="panel">
+            <div class="panel-badge web-badge">&#127760; Web Search</div>
+            <div class="input-box">
+                <textarea id="prompt1" placeholder="Ask anything..."></textarea>
+                <div class="input-footer">
+                    <span class="icon-btn">&#43;</span>
+                    <span class="icon-btn">&#127908;</span>
+                </div>
+            </div>
+            <div class="result-area" id="result1"></div>
+        </div>
+
+        <!-- Right: Deep Research -->
+        <div class="panel">
+            <div class="panel-badge deep-badge">&#128270; Deep Research</div>
+            <div class="input-box">
+                <textarea id="prompt2" placeholder="Ask anything..."></textarea>
+                <div class="input-footer">
+                    <span class="icon-btn">&#43;</span>
+                    <span class="icon-btn">&#127908;</span>
+                    <button class="compare-btn" id="compareBtn" onclick="compare()">&#10227; Compare</button>
+                </div>
+            </div>
+            <div class="result-area" id="result2"></div>
+        </div>
+
+    </div>
+
+    <!-- Chips -->
+    <div class="chips-section">
+
+        <div class="chip-group">
+            <div class="chip-label">Web search</div>
+            <div class="chips">
+                <button class="chip chip-web" onclick="fill('What are the latest current events today?')">&#127760; Current events</button>
+                <button class="chip chip-web" onclick="fill('What are popular local restaurants and things to do near me?')">&#127760; Local information</button>
+                <button class="chip chip-web" onclick="fill('What are the upcoming movies and product releases in 2025?')">&#127760; Upcoming releases</button>
+                <button class="chip chip-web" onclick="fill('What is the latest breaking news right now?')">&#127760; Breaking news</button>
+            </div>
+        </div>
+
+        <div class="chip-group">
+            <div class="chip-label">Deep research</div>
+            <div class="chips">
+                <button class="chip chip-deep" onclick="fill('What are gray market peptides, their risks and legal status?')">&#128270; Gray market peptides</button>
+            </div>
+        </div>
+
+        <div class="chip-group">
+            <div class="chip-label">File grounding</div>
+            <div class="chips">
+                <button class="chip chip-file" onclick="fill('How would a rocket-propelled monster truck work?')">&#128196; Rocket-propelled monster truck</button>
+            </div>
+        </div>
+
+        <div class="chip-group">
+            <div class="chip-label">Typos</div>
+            <div class="chips">
+                <button class="chip chip-typo" onclick="fill('Why do cats stare at walls?')">&#9999; Why cats stare at walls</button>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
