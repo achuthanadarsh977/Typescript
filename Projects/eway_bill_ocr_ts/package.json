@@ -1,0 +1,22 @@
+{
+  "name": "eway-bill-ocr",
+  "version": "1.0.0",
+  "description": "OCR tool for Eway Bill PDFs — outputs structured JSON",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/main.ts",
+    "dev": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^5.0.4",
+    "jimp": "^0.22.12"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.14.0",
+    "@types/pdf-parse": "^1.1.4"
+  }
+}
